@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; 
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 
@@ -19,9 +20,9 @@ const Navbar = () => {
         <li className='p__opensans'><a href='#Contact'>Contact</a></li>
         <li className='p__opensans'><a href='#Menu'>Menu</a></li>
       </ul>
-      <div className='app__navbar-login'>
-        <a href='#login' className='p__opensans'>Log In / Register</a>
-        <div />
+      <div className='app__navbar-gallery'>
+        <a href='#gallery' className='p__opensans'>Gallery</a>
+      <div />
         <a href='#bookings' className='p__opensans'>Book Table</a>
       </div>
       <div className="app__navbar-smallscreen">
@@ -35,6 +36,7 @@ const Navbar = () => {
               <li className='p__opensans'><a href='#About'>About</a></li>
               <li className='p__opensans'><a href='#Contact'>Contact</a></li>
               <li className='p__opensans'><a href='#Menu'>Menu</a></li>
+              <li className='p__opensans' style={{ borderTop: '1px dotted gold', paddingTop: '2rem', color: 'goldenrod' }}><a href='#Gallery'>Gallery</a></li>
             </ul>
           </div>
         )}

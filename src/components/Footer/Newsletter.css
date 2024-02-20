@@ -4,3 +4,9 @@
     background: var(--color-black);
     margin: 0;
 }
+
+@media screen and (max-width:420px) {
+    .custom__button:nth-child(2) {
+        margin-top: 2rem;
+    }
+}

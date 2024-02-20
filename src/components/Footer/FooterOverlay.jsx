@@ -34,7 +34,7 @@ const FooterOverlay = () => (
           </div>
 
           <>
-            <p className="p__opensans" id='copyright_mobile'>&copy; the chairman fortaleza de sol 2024</p>
+            <p className="p__opensans" id='copyright_mobile'>&copy; 2024 the chairman fortaleza de sol</p>
           </>
           
         </div>

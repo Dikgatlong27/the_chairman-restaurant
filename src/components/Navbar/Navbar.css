@@ -36,23 +36,23 @@
     color: var(--color-grey);
 }
 
-.app__navbar-login {
+.app__navbar-gallery {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.app__navbar-login a {
+.app__navbar-gallery a {
     margin: 0 1rem;
     text-decoration: none;
     transition: 0.5s ease;
 }
 
-.app__navbar-login a:hover {
+.app__navbar-gallery a:hover {
     border-bottom: 1px solid var(--color-golden);
 }
 
-.app__navbar-login div {
+.app__navbar-gallery div {
     width: 1px;
     height: 30px;
     background-color: var(--color-golden);
@@ -123,7 +123,7 @@
         padding: 1rem;
     }
 
-    .app__navbar-login {
+    .app__navbar-gallery {
         display: none;
     }
 
