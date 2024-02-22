@@ -1,9 +1,21 @@
-import React from 'react'
-
+import React from 'react';
+import { Navbar } from '../../components'; 
+import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, SpecialMenu } from '../../container';
 
 const Home = () => {
   return (
-    <h1>Home PAge</h1>
+    <>
+      <Navbar />
+      <Header />
+      <AboutUs />
+      <SpecialMenu />
+      <Chef />
+      <Intro />
+      <Gallery />
+      <FindUs />
+      <Footer />
+    </>
+    
   )
 }
 
