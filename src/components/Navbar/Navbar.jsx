@@ -22,7 +22,7 @@ const Navbar = () => {
         <li className='p__opensans'><Link to='/menu'>Menu</Link></li>
       </ul>
       <div className='app__navbar-gallery'>
-        <a href='#gallery' className='p__opensans'>Gallery</a>
+        <Link to='/gallery page' className='p__opensans'>Gallery</Link>
       <div />
         <a href='#bookings' className='p__opensans'>Book Table</a>
       </div>
@@ -35,9 +35,9 @@ const Navbar = () => {
             <ul className='app__navbar-smallscreen_links'>
               <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/'>Home</Link></li>
               <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/about'>About</Link></li>
-              <li className='p__opensans'><a href='#Contact'>Contact</a></li>
-              <li className='p__opensans'><a href='#Menu'>Menu</a></li>
-              <li className='p__opensans' style={{ borderTop: '1px dotted gold', paddingTop: '2rem', color: 'goldenrod' }}><a href='#Gallery'>Gallery</a></li>
+              <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/contact'>Contact</Link></li>
+              <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/menu'>Menu</Link></li>
+              <li className='p__opensans' onClick={() => setToggleMenu(false)} style={{ borderTop: '1px dotted gold', paddingTop: '2rem', color: 'goldenrod' }}><Link to='/gallery page'>Gallery</Link></li>
             </ul>
           </div>
         )}

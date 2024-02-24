@@ -4,6 +4,7 @@ import { BsInstagram, BsArrowLeftShort, BsArrowRightShort  } from 'react-icons/b
 import { SubHeading } from '../../components';
 import { images } from '../../constants'
 import './Gallery.css';
+import { Link } from 'react-router-dom';
 
 const galleryImages = [images.gallery01, images.gallery02, images.gallery03, images.gallery04];
 
@@ -26,7 +27,7 @@ const Gallery = () => {
         <SubHeading title='instagram' />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: '#aaa', marginTop: '2rem' }}>Explore the visual feast that awaits you at The Chairman Fortaleza de Sol through our enchanting photo gallery</p>
-        <button type='button' className='custom__button'>View More</button>
+        <button type='button' className='custom__button'><Link to='/gallery page'>Explore</Link></button>
       </div>
 
       <div className="app__gallery-images">
