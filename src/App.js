@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom'; 
-import { Home, About, Contact, Menu, GalleryPage } from './pages'
+import { Home, About, Contact, Menu, GalleryPage, Reservation } from './pages'
 
 
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, SpecialMenu } from './container';
@@ -16,6 +16,7 @@ const App = () => (
           <Route path='/contact' element={<Contact/>} />
           <Route path='/menu' element={<Menu/>} />
           <Route path='/gallery page' element={<GalleryPage/>} />
+          <Route path='/reservation' element={<Reservation/>} />
 
           // Buttons
 

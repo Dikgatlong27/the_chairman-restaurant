@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; 
 
 import { SubHeading } from '../../components';
 import { images } from '../../constants'
@@ -14,7 +15,7 @@ const FindUs = () => (
         <p className="p__opensans">Mon - Sat: 10h00 - 22h00</p>
         <p className="p__opensans"> Sun: 10h00 - 17h00</p>
       </div>
-      <button className='custom__button' style={{marginTop: '2rem'}}>Visit Us</button>
+      <button className='custom__button' style={{marginTop: '2rem'}}><Link to='https://www.google.com/maps/place/129+Duxbury+Rd,+Hillcrest,+Pretoria,+0083/@-25.7557492,28.2359937,17z/data=!3m1!4b1!4m9!1m2!10m1!1e2!3m5!1s0x1e9561badb82f77f:0xde4d4da82eb3d5a3!8m2!3d-25.7557541!4d28.2385686!16s%2Fg%2F11bw50k2mk?entry=ttu' target='_blank'>Visit Us</Link></button>
     </div>
 
     <div className="app__wrapper_img">

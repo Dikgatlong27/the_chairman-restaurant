@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; 
 
 import { images } from '../../constants'
 import './Header.css';
@@ -10,7 +11,7 @@ const Header = () => (
       <SubHeading title='Discover the Essence of Fine Dining' />
       <h1 className='app__header-h1'>Harnessing Culinary Excellence</h1>
       <p className="p__opensans" style={{margin: '2rem 0'}}>Embrace exquisite flavors and warmth, where every moment is a culinary delight—a sanctuary of charm and elegance.</p>
-      <button type='button' className='custom__button'>Make a Reservation</button>
+      <button type='button' className='custom__button'><Link to='./reservation'>Make a Reservation</Link></button>
     </div>
 
     <div className="app__wrapper_img" id='img'>

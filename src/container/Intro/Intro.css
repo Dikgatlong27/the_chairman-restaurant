@@ -19,6 +19,7 @@
     width: 85px;
     height: 85px;
     border-radius: 5px;
-    border: 1px dotted var(--color-golden);
+    border: 2px dotted var(--color-golden);
+    background: rgba(218, 165, 32, 0.533);
     cursor: pointer;
 }

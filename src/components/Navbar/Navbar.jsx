@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className='app__navbar-gallery'>
         <Link to='/gallery page' className='p__opensans'>Gallery</Link>
       <div />
-        <a href='#bookings' className='p__opensans'>Book Table</a>
+        <Link to='/reservation' className='p__opensans'>Book Table</Link>
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color='#fff' fontSize={27} onClick={() => setToggleMenu(true)} />
