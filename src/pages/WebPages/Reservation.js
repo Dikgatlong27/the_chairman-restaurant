@@ -11,12 +11,10 @@ const Reservation = () => {
     return (
         <div className='app__reservations'>
             <Navbar />
-            
             <Bookings />
-            
             <FooterOverlay />
         </div>
     )
-    }
+}
 
 export default Reservation

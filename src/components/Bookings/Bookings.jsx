@@ -14,8 +14,14 @@ const Bookings = () => {
 
   return (
     <div className='app__bookings section__padding'>
+
+
       <SubHeading title={'Reserve a Table'} />
+
+
+
       <form onSubmit={handleSubmit} className="reservation-form app__wrapper">
+
         <div id='bookings__form'>
           <div className="form-group">
               <label htmlFor="email" className="form-label p__opensans">Email Address</label>
@@ -46,7 +52,12 @@ const Bookings = () => {
           <TablesMap />
           <button type="submit" disabled={state.submitting} className="custom__button">Reserve</button>
         </div>
+        
       </form>
+
+
+
+
     </div>
   )
 }
