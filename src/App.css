@@ -65,10 +65,28 @@
   cursor: pointer;
 }
 
-.p__cormorant {
+.custom__input {
+  background-color: var(--color-crimson);
+  color: var(--color-black);
+  font-family: var(--font-base);
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+  margin: 1rem auto;
+  width: 100%;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+}
+
+.custom__input:hover {
+  box-shadow: 0 0 8px var(--color-golden);
+}
+
+.p__cursive {
   font-family: var(--font-base);
   color: var(--color-white);
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 0.04em;
   text-transform: capitalize;
   font-feature-settings: 'tnum' on, 'lnum' on;
@@ -86,11 +104,12 @@
   font-size: 16px;
 }
 
-.headtext__cormorant {
+.headtext__cursive {
   font-family: var(--font-base);
   color: var(--color-golden);
   font-size: 64px;
-  line-height: 83.2px;
+  line-height: 80px;
+  font-weight: 400;
   letter-spacing: 0.04em;
   text-transform: capitalize;
 }
@@ -101,7 +120,7 @@
 
 @media screen and (min-width: 2000px) {
   .custom__button,
-  .p__cormorant {
+  .p__cursive {
     font-size: 37px;
     line-height: 67px;
   }
@@ -111,7 +130,7 @@
     line-height: 50px;
   }
 
-  .headtext__cormorant {
+  .headtext__cursive {
     font-size: 150px;
     line-height: 210px;
   }
@@ -150,7 +169,7 @@
     padding: 4rem 2rem;
   }
   
-  .p__cormorant {
+  .p__cursive {
     font-size: 21px;
   }
 
@@ -164,7 +183,7 @@
     font-size: 12px;
   }
 
-  .p__cormorant {
+  .p__cursive {
     font-size: 19px;
   }
 

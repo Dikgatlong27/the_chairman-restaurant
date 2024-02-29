@@ -11,7 +11,7 @@ const AboutUs = () => (
 
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">About Us</h1>
+        <h1 className="headtext__cursive">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className='spoon__img'/>
         <p className='p__opensans'>Welcome to The Chairman Fortaleza de Sol, a culinary sanctuary where the rich tapestry of Portuguese, Italian, Greek, and African cuisines unfolds. Our name, The Chairman Fortaleza de Sol, speaks volumes about who we are and who we cater to. 
         <div />
@@ -20,7 +20,7 @@ const AboutUs = () => (
       </div>
 
       <div className="app__aboutus-content_history">
-        <h1 className="headtext__cormorant">Our History</h1>
+        <h1 className="headtext__cursive">Our History</h1>
         <img src={images.spoon} alt="about_spoon" className='spoon__img'/>
         <p className='p__opensans'>The story of The Chaairman Fortaleza de Sol began with a visionary named Mr. Maphanga, affectionately known as the Chairman. Fueled by his passion for culinary excellence, the Chairman brought together a group of like-minded individuals to turn his dream into a reality. With unwavering determination and a shared commitment to gastronomic innovation, they embarked on a journey to create a dining destination like no other.Drawing inspiration from diverse culinary traditions and a deep-rooted appreciation for fine cuisine, the Chairman and his team set out to redefine the culinary landscape.</p> 
         

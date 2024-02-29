@@ -1,10 +1,19 @@
 import React from 'react'
+import { images } from '../../constants' 
+import { TfiAngleDoubleDown } from "react-icons/tfi";
+
 import './TablesMap.css'
 
 const TablesMap = () => {
   return (
     <div className='app__tablesMap'>
-      <label for="tables" className='p__opensans'>Select a Table {'>>>'}</label>
+      <img src="" alt="" />
+      <label for="tables" className='app__tablesMap_p p__opensans'>Select a Table {'>>>'}</label>
+      <div className='app__tablesMap_p-mobile'>
+        <label for="tables" className='p__opensans' style={{marginRight: '1rem'}}>Select a Table </label>
+        <TfiAngleDoubleDown size={24} color='#eee' />
+      </div>
+      
       <select id="tables" name="table">
           <option value="1">Available Tables</option>
           <option value="1">Table 1</option>

@@ -8,10 +8,10 @@ const FindUs = () => (
   <div className='app__bg app__wrapper section__padding' id='contact'>
     <div className="app__wrapper_info">
       <SubHeading title="Contact" />
-      <h1 className='headtext__cormorant' style={{marginBottom: '2rem'}}>Find Us</h1>
+      <h1 className='headtext__cursive' style={{marginBottom: '2rem'}}>Find Us</h1>
       <div className="app__wrapper-content">
         <p className="p__opensans">129 Duxbury Rd, Hatfield, Pretoria, 0083</p>
-        <p className="p__cormorant" style={{color: '#dcca87', margin: '2rem 0'}}>Opening Hours</p>
+        <p className="p__cursive" style={{color: '#dcca87', margin: '2rem 0'}}>Opening Hours</p>
         <p className="p__opensans">Thurs - Sat: 12h00 - 00h00</p>
         <p className="p__opensans"> Sun: 12h00 - 21h00</p>
       </div>

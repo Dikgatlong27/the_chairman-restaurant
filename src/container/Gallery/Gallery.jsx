@@ -8,6 +8,13 @@ import { Link } from 'react-router-dom';
 
 const galleryImages = [images.gallery01, images.gallery02, images.gallery03, images.gallery04];
 
+const instagramLinks = [
+  'https://www.instagram.com/p/CyGGkFAMhZf/',
+  'https://www.instagram.com/p/CxvYhYmMFsr/',
+  'https://www.instagram.com/p/CxX2vhzNthA/',
+  'https://www.instagram.com/p/CyL-Sx5sR2n/',
+]
+
 const Gallery = () => {
   const scrollRef = React.useRef(null)
 
@@ -25,7 +32,7 @@ const Gallery = () => {
     <div className='app__gallery flex__center'>
       <div className="app__gallery-content">
         <SubHeading title='instagram' />
-        <h1 className="headtext__cormorant">Photo Gallery</h1>
+        <h1 className="headtext__cursive">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: '#aaa', marginTop: '2rem' }}>Explore the visual feast that awaits you at The Chairman Fortaleza de Sol through our enchanting photo gallery</p>
         <button type='button' className='custom__button'><Link to='/gallery page'>Explore</Link></button>
       </div>
@@ -33,9 +40,11 @@ const Gallery = () => {
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
           {galleryImages.map((image, index) => (
-            <div className="app__gallery-images_card flex__center" key={`gallery_image-${index + 1}`}>
-              <img src={image} alt="gallery" />
-              <BsInstagram className='gallery__image-icon' />
+            <div  key={`gallery_image-${index + 1}`}>
+              <a href={instagramLinks[index]} target='_blank' className="app__gallery-images_card flex__center">
+                <img src={image} alt="gallery" />
+                <BsInstagram className='gallery__image-icon' />
+              </a>
             </div>
           ))}
         </div>

@@ -20,7 +20,7 @@
 
 .app__chef-sign {
     width: 100%;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .app__chef-sign p:first-child {
@@ -35,7 +35,7 @@
 
 .app__chef-sign img {
     width: 50%;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 @media screen and (max-width:850px) {
@@ -53,12 +53,12 @@
     }
     
     .app__chef-sign {
-        width: 253px;
+        width: 200px;
     }
 
     .app__chef-sign img {
         width: 100%;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
     }
 }
 
@@ -72,8 +72,12 @@
         height: 30px;
     }
 
+    #chef-img {
+        margin-top: 4rem;
+    }
+
     .app__wrapper_info {
-        margin-top: -31px;
+        margin-top: -11px;
     }
 
     .app__wrapper_info h1 {

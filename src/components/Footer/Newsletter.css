@@ -5,8 +5,20 @@
     margin: 0;
 }
 
-@media screen and (max-width:420px) {
-    .custom__button:nth-child(2) {
-        margin-top: 2rem;
+#subscription-form {
+    width: 590px;
+}
+
+#email {
+    width: 100%;
+}
+
+@media screen and (max-width:620px) {
+    #subscription-form {
+        width: 100%;
+    }
+    
+    #email {
+        width: 100%;
     }
 }

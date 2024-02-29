@@ -1,7 +1,9 @@
-
-
 .app__tablesMap h1 {
     color: aliceblue;
+}
+
+.app__tablesMap_p-mobile {
+    display: none;
 }
 
 .app__tablesMap select {
@@ -25,4 +27,14 @@
     line-height: 28px;
     font-size: 16px;
     cursor: pointer;
+}
+
+@media screen and (max-width:790px) {
+    .app__tablesMap_p {
+        display: none;
+    }
+
+    .app__tablesMap_p-mobile {
+        display: flex;
+    }
 }

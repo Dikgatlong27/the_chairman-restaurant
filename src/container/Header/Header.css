@@ -10,7 +10,7 @@
     color: var(--color-golden);
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    font-size: 70px;
+    font-size: 60px;
 } 
 
 @media screen and (max-width: 1150px) {
