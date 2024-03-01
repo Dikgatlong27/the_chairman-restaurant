@@ -7,7 +7,7 @@
     margin-right: 2rem;
     padding: 1rem;
     border-radius: 5px;
-    height: 90vh;
+    height: auto;
 }
 
 .app__bookings-reservations_book .form-group {
@@ -34,7 +34,6 @@
     .app__bookings-reservations_book {
         width: 80%;
         margin-right: 0;
-        height: 80vh;
     }
     
     .app__bookings-reservations_tablesMap {

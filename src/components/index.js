@@ -5,6 +5,9 @@ import MenuItem from './Menuitem/MenuItem';
 import Navbar from './Navbar/Navbar';
 import Bookings from './Bookings/Bookings';
 import TablesMap from './Bookings/TablesMap';
+import ContactForm from './ContactUsPage/ContactForm';
+import GetInTouch from './ContactUsPage/GetInTouch';
+import Social from './ContactUsPage/Social';
 
 export {
   SubHeading,
@@ -13,5 +16,8 @@ export {
   MenuItem,
   Navbar,
   Bookings,
-  TablesMap
+  TablesMap,
+  ContactForm,
+  GetInTouch,
+  Social
 };

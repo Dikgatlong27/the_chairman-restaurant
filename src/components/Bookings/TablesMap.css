@@ -2,10 +2,6 @@
     color: aliceblue;
 }
 
-.app__tablesMap_p-mobile {
-    display: none;
-}
-
 .app__tablesMap select {
     background-color: var(--color-crimson);
     color: var(--color-black);
@@ -29,12 +25,3 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:790px) {
-    .app__tablesMap_p {
-        display: none;
-    }
-
-    .app__tablesMap_p-mobile {
-        display: flex;
-    }
-}
