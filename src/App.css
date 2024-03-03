@@ -66,21 +66,35 @@
 }
 
 .custom__input {
-  background-color: var(--color-crimson);
-  color: var(--color-black);
+  background-color: #222121c1;
+  color: var(--color-white);
   font-family: var(--font-base);
   font-weight: 500;
   font-size: 16px;
   padding: 0.5rem 1rem;
   margin: 1rem auto;
   width: 100%;
-  border-radius: 1px;
-  border: none;
+  border-radius: 3px;
+  border: 1px solid #ffffff4d;
   outline: none;
 }
 
 .custom__input:hover {
-  box-shadow: 0 0 8px var(--color-golden);
+  border: 1px solid var(--color-golden);
+}
+
+.btn {
+  background-color: #a2a2a2ae;
+  color: var(--color-white);
+  font-family: var(--font-base);
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+  margin: 1rem auto;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #ffffff92;
+  outline: none;
+  cursor: pointer;
 }
 
 .p__cursive {
@@ -176,6 +190,10 @@
   .p__opensans {
     font-size: 14px;
   }
+
+  .headtext__cormorant {
+    font-size: 40px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -188,7 +206,7 @@
   }
 
   .headtext__cormorant {
-    font-size: 45px;
+    font-size: 35px;
     line-height: 70px;
   }
 }

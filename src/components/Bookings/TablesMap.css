@@ -2,18 +2,6 @@
     color: aliceblue;
 }
 
-.app__tablesMap select {
-    background-color: var(--color-crimson);
-    color: var(--color-black);
-    font-family: var(--font-base);
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    font-size: 16px;
-    margin: 2rem 1rem;
-    padding: 0.5rem 1.5rem;
-    border-radius: 1px;
-}
-
 .app__tablesMap option {
     font-family: var(--font-alt);
     color: var(--color-black);

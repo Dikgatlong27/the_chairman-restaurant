@@ -50,7 +50,7 @@ const Bookings = () => {
         <div className='app__bookings-reservations_tablesMap app__bg'>
           <div className="form-group">
             <TablesMap />
-            <button className="custom__button" type='submit' disabled={state.submitting}>Reserve</button>
+            <button className="btn" type='submit' disabled={state.submitting}>Reserve</button>
           </div>
         </div>
         

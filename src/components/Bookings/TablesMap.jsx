@@ -14,7 +14,7 @@ const TablesMap = () => {
         <TfiAngleDoubleDown size={24} color='#eee' />
       </div>
       
-      <select id="tables" name="table">
+      <select id="tables" name="table" className='custom__input'>
           <option value="Any">Available Tables (optional)</option>
           <option value="1">Table 1</option>
           <option value="2">Table 2</option>
