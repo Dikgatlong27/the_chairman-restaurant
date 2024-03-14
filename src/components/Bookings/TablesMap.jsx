@@ -15,7 +15,7 @@ const TablesMap = () => {
       </div>
       
       <select id="tables" name="table" className='custom__input'>
-          <option value="Any">Available Tables (optional)</option>
+          <option value="Any">(floor map coming soon)</option>
           <option value="1">Table 1</option>
           <option value="2">Table 2</option>
           <option value="3">Table 3</option>

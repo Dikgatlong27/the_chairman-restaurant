@@ -33,7 +33,7 @@ const Bookings = () => {
 
           <div className="form-group">
             <label htmlFor="message" className="form-label p__opensans">Message (Optional)</label>
-            <textarea id="message" name="message" rows={4} placeholder='Special request' className="custom__input"></textarea>
+            <textarea id="message" name="message" rows={4} placeholder='Special request, number of guests etc...' className="custom__input"></textarea>
           </div>
 
           <div className='form-group'>

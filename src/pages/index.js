@@ -11,5 +11,5 @@ export {
     Contact,
     Menu,
     GalleryPage,
-    Reservation
+    Reservation,
 };

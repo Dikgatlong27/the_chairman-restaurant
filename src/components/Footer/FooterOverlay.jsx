@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FaWhatsapp } from 'react-icons/fa'
+import { FaWhatsapp } from 'react-icons/fa';
 
 import { SubHeading } from '../../components';
 

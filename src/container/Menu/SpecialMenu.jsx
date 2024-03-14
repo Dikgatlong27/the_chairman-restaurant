@@ -9,7 +9,7 @@ const SpecialMenu = () => (
   <div className='app__specialMenu flex__center section__padding' id='menu'>
     <div className="app__specialMenu-title">
       <SubHeading title='Menu that fits you pallate' />
-      <h1 className='headtext__cursive'>Today's Special</h1>
+      <h1 className='headtext__cursive'>Our Bar Menu</h1>
     </div>
 
     <div className="app__specialMenu-menu">
@@ -38,7 +38,7 @@ const SpecialMenu = () => (
     </div>
 
     <div style={{marginTop: '15px'}}>
-      <button type='button' className='custom__button'><Link to='/menu'>View More</Link></button>
+      <button type='button' className='custom__button'><Link to='/menu'>View Menu</Link></button>
     </div>
 
   </div>
