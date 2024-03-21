@@ -60,7 +60,7 @@ const Menu = () => {
 
         
         <h1 className='dwnld_h1' style={{ color: '#ccc', marginBottom: '2rem'}}>Download our full menu</h1>
-        <Link target='_blank' to='menu.pdf' download className='custom__button'>Download</Link>
+        <a target='_blank' href='../WebPages/menu.pdf' download className='custom__button'>Download</a>
       </div>
       <FooterOverlay />
     </>
