@@ -10,7 +10,9 @@ import GetInTouch from './ContactUsPage/GetInTouch';
 import Social from './ContactUsPage/Social';
 import ScrollToTopBtn from './ScrollToTop/ScrollToTopBtn';
 import PhotoSlider from './PhotoSlider/PhotoSlider';
-import PhotoSliderHeader from './PhotoSlider/PhotoSliderHeader'
+import PhotoSliderHeader from './PhotoSlider/PhotoSliderHeader';
+import OurMenu  from './OurMenu/OurMenu';
+import SushiMenu  from './OurMenu/SushiMenu';
 
 export {
   SubHeading,
@@ -25,5 +27,7 @@ export {
   Social,
   ScrollToTopBtn,
   PhotoSlider,
-  PhotoSliderHeader
+  PhotoSliderHeader,
+  OurMenu,
+  SushiMenu
 };

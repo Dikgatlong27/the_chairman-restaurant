@@ -1,5 +1,6 @@
 import React from 'react';
-import { Navbar, FooterOverlay, SubHeading } from '../../components'; 
+import { Navbar, FooterOverlay, SubHeading, OurMenu, SushiMenu } from '../../components'; 
+import { MenuData } from '../../constants';
 import MenuPDF from './MenuPDF';
 import { PDFDownloadLink } from '@react-pdf/renderer';
 
@@ -7,21 +8,6 @@ import './Menu.css';
 
 
 const Menu = () => {
-
-  const kitchenDishes = [
-    'Peri Peri Chicken',
-    'Fillet On The Bone',
-    'Tomahawk Steak',
-    'Chicken Wings',
-    'Lamb Shank',
-  ];
-
-  const sushiDishes = [
-    'Tokyo Tasting',
-    'Kyoto Platter',
-    'Sushi And Sashimi Fusion',
-    'Sushi Platter',
-  ]
 
   return (
     <>
@@ -35,23 +21,27 @@ const Menu = () => {
         <div className='app__menu-hero'>
           
           <div className='app__menu-hero_kitchen-dishes'>
-            <h2 style={{color:'#555'}}>Kitchen Dishes</h2>
+            <h2 style={{color:'#DCCA87'}}>House Specialties</h2>
             <div className='line' />
-            <ul>
-              {kitchenDishes.map((dish, index) => (
-                <li className='p__opensans' key={`kitchen-dish-${index}`}>{dish}</li>
+
+            <div className='app__menu-hero_ourMenu section__padding'>
+              {MenuData.kitchen.map((kitchen, index) => (
+                <OurMenu key={kitchen.title + index} title={kitchen.title} price={kitchen.price} tags={kitchen.tags} />
               ))}
-            </ul>
+            </div>
+            
           </div>
 
           <div className='app__menu-hero_sushi-dishes'>
-            <h2 style={{color:'#555'}}>Sushi Platters</h2>
+            <h2 style={{color:'#DCCA87'}}>Sushi Delicacies</h2>
             <div className='line' />
-            <ul>
-              {sushiDishes.map((dish, index) => (
-                <li className='p__opensans' key={`sushi-dish-${index}`}>{dish}</li>
+
+            <div className='app__menu-hero_sushiMenu section__padding'>
+              {MenuData.sushi.map((sushi, index) => (
+                <SushiMenu />
               ))}
-            </ul>
+            </div>
+            
           </div>
 
         </div>

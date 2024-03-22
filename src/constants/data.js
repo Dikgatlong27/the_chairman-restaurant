@@ -50,5 +50,6 @@ const cocktails = [
   },
   
 ];
+
 // eslint-disable-next-line
 export default { wines, cocktails };
