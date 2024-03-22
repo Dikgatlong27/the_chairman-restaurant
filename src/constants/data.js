@@ -1,4 +1,3 @@
-import images from './images';
 
 const wines = [
   {
@@ -51,5 +50,5 @@ const cocktails = [
   },
   
 ];
-
+// eslint-disable-next-line
 export default { wines, cocktails };

@@ -4,7 +4,7 @@ import { Home, About, Contact, Menu, GalleryPage, Reservation } from './pages'
 
 
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, SpecialMenu } from './container';
-import { Navbar, ScrollToTopBtn } from './components';
+import { Navbar } from './components';
 import './App.css';
 
 const App = () => (
@@ -18,15 +18,13 @@ const App = () => (
           <Route path='/gallery page' element={<GalleryPage/>} />
           <Route path='/reservation' element={<Reservation/>} />
 
-          // Buttons
-
-          // SpecialMenu view-more
+          {/* SpecialMenu view-more */}
           <Route path='/menu' exact render={(props) => (<SpecialMenu />)} />
 
-          // Gallery explore
+          {/* Gallery explore */}
           <Route path='/gallery page' exact render={(props) => (<Gallery />)} />
 
-          // Buttons
+          {/* Buttons */}
           
           <Route path='/' exact render={(props) => (
               <>

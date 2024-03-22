@@ -9,6 +9,8 @@ import ContactForm from './ContactUsPage/ContactForm';
 import GetInTouch from './ContactUsPage/GetInTouch';
 import Social from './ContactUsPage/Social';
 import ScrollToTopBtn from './ScrollToTop/ScrollToTopBtn';
+import PhotoSlider from './PhotoSlider/PhotoSlider';
+import PhotoSliderHeader from './PhotoSlider/PhotoSliderHeader'
 
 export {
   SubHeading,
@@ -21,5 +23,7 @@ export {
   ContactForm,
   GetInTouch,
   Social,
-  ScrollToTopBtn
+  ScrollToTopBtn,
+  PhotoSlider,
+  PhotoSliderHeader
 };

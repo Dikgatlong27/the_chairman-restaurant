@@ -1,5 +1,4 @@
 import React from 'react';
-import { FiFacebook, FiInstagram } from 'react-icons/fi';
 
 import { Newsletter, FooterOverlay } from '../../components'; 
 import './Footer.css';

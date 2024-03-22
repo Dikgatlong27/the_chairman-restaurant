@@ -41,7 +41,7 @@ const Gallery = () => {
         <div className="app__gallery-images_container" ref={scrollRef}>
           {galleryImages.map((image, index) => (
             <div  key={`gallery_image-${index + 1}`}>
-              <a href={instagramLinks[index]} target='_blank' className="app__gallery-images_card flex__center">
+              <a href={instagramLinks[index]} target='_blank' rel='noreferrer' className="app__gallery-images_card flex__center">
                 <img src={image} alt="gallery" />
                 <BsInstagram className='gallery__image-icon' />
               </a>

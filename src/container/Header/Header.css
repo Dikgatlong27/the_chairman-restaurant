@@ -2,36 +2,109 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-image: url(../../assets/mainbg.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s ease-in;
 }
 
 .app__header-h1 {
     font-family: var(--font-base);
     color: var(--color-golden);
+    background: black;
+    padding: 0.5rem;
+    border-radius: 2rem 20rem 0 0;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     font-size: 60px;
+    animation-name: slideInFromLeft;
+    animation-duration: 5s;
 } 
+
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+#main-p {
+    background: #000;
+    padding: 0.5rem;
+    border-radius: 0 0 10rem 1rem;
+    margin-bottom: 2rem;
+} 
+
+.app__header button {
+    animation-name: slideInFromRight;
+    animation-duration: 8s;
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(130%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.app__wrapper_img {
+    width: 150px;
+}
+
+#img {
+    width: 100%;
+    animation-name: flickerImage;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flickerImage {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1150px) {
     .app__header-h1 {
         letter-spacing: 0.03em;
         font-size: 50px;
     } 
-
-    .app__wrapper_img {
-        width: 450px;
-    }
-
-    .app__wrapper_img img {
-        width: 100%;
-        padding-bottom: 5rem;
-    }
 }
 
 @media screen and (max-width: 850px) {
     .app__header-h1 {
         font-size: 45px;
+        background-color: transparent;
+    } 
+
+    #main-p {
+        background: transparent;
     } 
 }
 
@@ -40,4 +113,3 @@
         flex-direction: column;
     }
 }
-

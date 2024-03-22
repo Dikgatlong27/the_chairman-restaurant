@@ -1,5 +1,5 @@
 import React from 'react';
-import { images } from '../../constants';
+
 import { TfiAngleDoubleDown } from "react-icons/tfi";
 
 import './TablesMap.css'

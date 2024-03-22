@@ -1,6 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; 
 import { Navbar, FooterOverlay, SubHeading } from '../../components'; 
+import MenuPDF from './MenuPDF';
+import { PDFDownloadLink } from '@react-pdf/renderer';
 
 import './Menu.css';
 
@@ -56,11 +57,18 @@ const Menu = () => {
         </div>
 
 
-
+        <PDFDownloadLink document={<MenuPDF />} fileName='FULLMENU'>
+          {({loading}) => 
+            loading ? (
+            < button className='custom__button'>Loading Menu...</button>
+            ) : (
+              <button className='custom__button'>Download</button> 
+            )
+          }
+        </PDFDownloadLink> 
 
         
-        <h1 className='dwnld_h1' style={{ color: '#ccc', marginBottom: '2rem'}}>Download our full menu</h1>
-        <a target='_blank' href='../WebPages/menu.pdf' download className='custom__button'>Download</a>
+        
       </div>
       <FooterOverlay />
     </>

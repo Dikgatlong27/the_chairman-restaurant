@@ -15,6 +15,16 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import chairman from '../assets/chairman.png';
 
+import one from '../assets/slider-img/1.png';
+import two from '../assets/slider-img/2.png';
+import three from '../assets/slider-img/3.png';
+import four from '../assets/slider-img/4.png';
+import five from '../assets/slider-img/5.png';
+import img from '../assets/slider-img/img.png';
+import mainbg from '../assets/mainbg.png';
+import nightbg from '../assets/nightbg.png';
+
+// eslint-disable-next-line
 export default {
   bg,
   chef,
@@ -32,4 +42,12 @@ export default {
   sign,
   quote,
   chairman,
+  one,
+  two,
+  three,
+  four,
+  five,
+  img,
+  mainbg,
+  nightbg,
 };
