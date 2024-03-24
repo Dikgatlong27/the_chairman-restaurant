@@ -19,6 +19,7 @@
 
 .app__menuitem-name {
     flex: 1;
+    text-align: start;
 }
 
 .app__menuitem-dash {

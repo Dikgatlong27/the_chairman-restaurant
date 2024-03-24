@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, FooterOverlay, SubHeading, OurMenu} from '../../components'; 
+import { Navbar, FooterOverlay, SubHeading, MenuItem} from '../../components'; 
 import { MenuData } from '../../constants';
 import MenuPDF from './MenuPDF';
 import { PDFDownloadLink } from '@react-pdf/renderer';
@@ -11,10 +11,7 @@ const Menu = () => {
 
   return (
     <>
-      <Navbar />
-
-
-      
+      <Navbar />      
       <div className='about__h-one' style={{background: '#000', textAlign: 'center', padding: '2rem 0' }}>
         <SubHeading  title={'Explore Our Delicious Menu'}/>
 
@@ -26,7 +23,7 @@ const Menu = () => {
 
             <div className='app__menu-hero_ourMenu'>
               {MenuData.kitchen.map((kitchen, index) => (
-                <OurMenu key={kitchen.title + index} title={kitchen.title} price={kitchen.price} tags={kitchen.tags} />
+                <MenuItem key={kitchen.title + index} title={kitchen.title} price={kitchen.price} tags={kitchen.tags} />
               ))}
             </div>
           </div>
@@ -37,7 +34,7 @@ const Menu = () => {
 
             <div className='app__menu-hero_ourMenu'>
               {MenuData.sushi.map((sushi, index) => (
-                <OurMenu key={sushi.title + index} title={sushi.title} price={sushi.price} tags={sushi.tags} />
+                <MenuItem key={sushi.title + index} title={sushi.title} price={sushi.price} tags={sushi.tags} />
               ))}
             </div>
           </div>
