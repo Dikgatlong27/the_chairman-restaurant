@@ -12,7 +12,6 @@ import ScrollToTopBtn from './ScrollToTop/ScrollToTopBtn';
 import PhotoSlider from './PhotoSlider/PhotoSlider';
 import PhotoSliderHeader from './PhotoSlider/PhotoSliderHeader';
 import OurMenu  from './OurMenu/OurMenu';
-import SushiMenu  from './OurMenu/SushiMenu';
 
 export {
   SubHeading,
@@ -28,6 +27,5 @@ export {
   ScrollToTopBtn,
   PhotoSlider,
   PhotoSliderHeader,
-  OurMenu,
-  SushiMenu
+  OurMenu
 };

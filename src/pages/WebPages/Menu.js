@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, FooterOverlay, SubHeading, OurMenu, SushiMenu } from '../../components'; 
+import { Navbar, FooterOverlay, SubHeading, OurMenu} from '../../components'; 
 import { MenuData } from '../../constants';
 import MenuPDF from './MenuPDF';
 import { PDFDownloadLink } from '@react-pdf/renderer';
@@ -20,28 +20,26 @@ const Menu = () => {
 
         <div className='app__menu-hero'>
           
-          <div className='app__menu-hero_kitchen-dishes'>
-            <h2 style={{color:'#DCCA87'}}>House Specialties</h2>
+          <div className='app__menu-hero_kitchen flex__center'>
+            <h2 className='app__mwnu-hero-menu_heading'>House Specialties</h2>
             <div className='line' />
 
-            <div className='app__menu-hero_ourMenu section__padding'>
+            <div className='app__menu-hero_ourMenu'>
               {MenuData.kitchen.map((kitchen, index) => (
                 <OurMenu key={kitchen.title + index} title={kitchen.title} price={kitchen.price} tags={kitchen.tags} />
               ))}
             </div>
-            
           </div>
 
-          <div className='app__menu-hero_sushi-dishes'>
-            <h2 style={{color:'#DCCA87'}}>Sushi Delicacies</h2>
+          <div className='app__menu-hero_sushi flex__center'>
+            <h2 className='app__mwnu-hero-menu_heading'>Sushi Delicacies</h2>
             <div className='line' />
 
-            <div className='app__menu-hero_sushiMenu section__padding'>
+            <div className='app__menu-hero_ourMenu'>
               {MenuData.sushi.map((sushi, index) => (
-                <SushiMenu />
+                <OurMenu key={sushi.title + index} title={sushi.title} price={sushi.price} tags={sushi.tags} />
               ))}
             </div>
-            
           </div>
 
         </div>
