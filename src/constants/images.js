@@ -8,21 +8,28 @@ import gallery04 from '../assets/gallery04.jpg';
 import knife from '../assets/knife.png';
 import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
-import spoon from '../assets/spoon.svg';
+import spoon from '../assets/spoon.png';
 import welcome from '../assets/welcome.png';
 import findus from '../assets/findus.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import chairman from '../assets/chairman.png';
 
-import one from '../assets/slider-img/1.png';
-import two from '../assets/slider-img/2.png';
-import three from '../assets/slider-img/3.png';
-import four from '../assets/slider-img/4.png';
-import five from '../assets/slider-img/5.png';
-import img from '../assets/slider-img/img.png';
+
+
 import mainbg from '../assets/mainbg.png';
 import nightbg from '../assets/nightbg.png';
+
+// Gallery Page - bevs
+
+// Gallery Page - gallry
+
+// Gallery Page - meal
+
+import meal1 from '../assets/slider-img/OurGallery/meal/meal (1).jpg';
+import meal2 from '../assets/slider-img/OurGallery/meal/meal (2).jpg';
+import meal3 from '../assets/slider-img/OurGallery/meal/meal (3).jpg';
+import meal4 from '../assets/slider-img/OurGallery/meal/meal (4).jpg';
 
 // eslint-disable-next-line
 export default {
@@ -42,12 +49,22 @@ export default {
   sign,
   quote,
   chairman,
-  one,
-  two,
-  three,
-  four,
-  five,
-  img,
+
   mainbg,
   nightbg,
+
+
+
+  // Gallery Page - bevs
+  
+  // Gallery Page - gallry
+
+  // Gallery Page - meal
+
+  meal1,
+  meal2, 
+  meal3,
+  meal4, 
+
+  
 };

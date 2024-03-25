@@ -9,7 +9,6 @@ import ContactForm from './ContactUsPage/ContactForm';
 import GetInTouch from './ContactUsPage/GetInTouch';
 import Social from './ContactUsPage/Social';
 import ScrollToTopBtn from './ScrollToTop/ScrollToTopBtn';
-import PhotoSlider from './PhotoSlider/PhotoSlider';
 import PhotoSliderHeader from './PhotoSlider/PhotoSliderHeader';
 
 export {
@@ -24,6 +23,5 @@ export {
   GetInTouch,
   Social,
   ScrollToTopBtn,
-  PhotoSlider,
   PhotoSliderHeader
 };

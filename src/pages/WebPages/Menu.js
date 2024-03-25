@@ -1,13 +1,13 @@
 import React from 'react';
 import { Navbar, FooterOverlay, SubHeading, MenuItem} from '../../components'; 
 import { MenuData } from '../../constants';
-import MenuPDF from './MenuPDF';
-import { PDFDownloadLink } from '@react-pdf/renderer';
 
 import './Menu.css';
 
 
 const Menu = () => {
+
+  const pdfURL = 'https://drive.google.com/file/d/1ivmn1FIGL_Qr1QGWO4dc073TZO0qT2lM/view?usp=sharing'
 
   return (
     <>
@@ -42,16 +42,10 @@ const Menu = () => {
         </div>
 
 
-        <PDFDownloadLink document={<MenuPDF />} fileName='FULLMENU'>
-          {({loading}) => 
-            loading ? (
-            < button className='custom__button'>Loading Menu...</button>
-            ) : (
-              <button className='custom__button'>Download</button> 
-            )
-          }
-        </PDFDownloadLink> 
-
+        <div style={{marginBottom: '2rem'}}>
+          <p className='p__cursive' style={{marginBottom: '2rem'}}>Click the button below to download the full menu:</p>
+          <a href={pdfURL} target="_blank" rel="noopener noreferrer" className='custom__button'>Full Menu</a>
+        </div>
         
         
       </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, FooterOverlay, PhotoSlider, PhotoSliderHeader } from '../../components'; 
+import { Navbar, FooterOverlay, PhotoSliderHeader } from '../../components'; 
 
 import './GalleryPage.css';
 
@@ -8,7 +8,6 @@ const GalleryPage = () => {
     <>
       <Navbar />
       <PhotoSliderHeader />
-      <PhotoSlider />
       <FooterOverlay />
     </>
   )
