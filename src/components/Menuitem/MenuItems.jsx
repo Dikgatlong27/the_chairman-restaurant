@@ -1,12 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import './MenuItem.css';
+import './MenuItems.css';
 
 const MenuItem = ( {image, title, price, tags} ) => {
+  const [isZoomed, setIsZoomed] = useState(false);
+
+  const toggleZoom = () => {
+    setIsZoomed(!isZoomed);
+  };
+
 
   return (
 
   <div className='app__menuitem'>
+    <div>
+      <div className="app__menuitem-img"> 
+        <img src={image} alt="meal" className= {isZoomed ? "zoomed" : ""}
+        onClick={toggleZoom} />
+      </div>
+    </div>
 
     <div className='app__menuitem-content'>
       <div className="app__menuitem-head">

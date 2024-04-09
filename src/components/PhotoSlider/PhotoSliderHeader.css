@@ -3,20 +3,8 @@
     flex-direction: column;
     background-color: #000;
     width: 100%;
-    padding: 0 2rem 4rem 2rem;
+    padding: 0 2rem 1rem 2rem;
     text-align: center;
-}
-
-.app__gallery-page_sub {
-    font-family: var(--font-base);
-    color: var(--color-golden);
-    font-weight: 500;
-    letter-spacing: 0.04em;
-    text-transform: capitalize;
-    font-feature-settings: 'tnum' on, 'lnum' on;
-    line-height: 29.9px;
-    font-size: 29px;
-    padding: 1rem 0;
 }
 
 .app__gallery-page_container {

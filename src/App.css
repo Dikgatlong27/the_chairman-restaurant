@@ -2,6 +2,10 @@
   padding: 4rem 6rem;
 }
 
+.section__padding-new {
+  padding: 2rem 0;
+}
+
 .flex__center {
   display: flex;
   justify-content: center;

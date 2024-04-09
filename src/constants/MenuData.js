@@ -1,28 +1,35 @@
+import images from "./images"
+
 const kitchen = [
     {
         title: 'Espatada Rump',
         price: 'R250',
         tags: '3 x Rump picanha cubes | Brushed with rock salt & bay leaves',
+        image: images.espatada,
     },
     {
-        title: 'Tomahawk Steak',
-        price: 'R390',
-        tags: '700g steak grilled | Served with sauce of your choice',
+        title: 'Lamb Shank',
+        price: 'R350',
+        tags: 'Slow cooked | Served with side of your choice',
+        image: images.lambShank,
     },
     {
-        title: 'Prawn Curry',
-        price: 'R210',
-        tags: 'Coconut infused prawn | Mozambican curry',
+        title: 'Lamb Ribs',
+        price: 'R290',
+        tags: '500g flame grilled lamb ribs | Brushed with our secret basting',
+        image: images.lambRib,
     },
     {
         title: 'Ox Tail',
         price: 'R290',
         tags: 'Slow cooked ox tail | In our rich gravy sauce',
+        image: images.oxTail,
     },
     {
-        title: 'Mozambican Prawns',
-        price: 'R360',
-        tags: '12 Queen prawns grilled | Basted in our beer garlic & chilli sauce | Served with la posh bread',
+        title: 'Fillet On The Bone',
+        price: 'R380',
+        tags: '500g fillet | Served with side of your choice',
+        image: images.filletOnTheBone,
     },
 ]
 

@@ -23,7 +23,7 @@ const wines = [
   {
     title: 'Stella Artois',
     price: 'R40',
-    tags: 'BE | 350 ml',
+    tags: 'BE | 330 ml',
   },
 ];
 

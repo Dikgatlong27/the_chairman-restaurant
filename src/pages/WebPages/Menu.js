@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, FooterOverlay, SubHeading, MenuItem} from '../../components'; 
+import { Navbar, FooterOverlay, SubHeading, MenuItems} from '../../components'; 
 import { MenuData } from '../../constants';
 
 import './Menu.css';
@@ -22,8 +22,9 @@ const Menu = () => {
             <div className='line' />
 
             <div className='app__menu-hero_ourMenu'>
+              
               {MenuData.kitchen.map((kitchen, index) => (
-                <MenuItem key={kitchen.title + index} title={kitchen.title} price={kitchen.price} tags={kitchen.tags} />
+                <MenuItems key={kitchen.title + index} image={kitchen.image} title={kitchen.title} price={kitchen.price} tags={kitchen.tags} />
               ))}
             </div>
           </div>
@@ -34,7 +35,7 @@ const Menu = () => {
 
             <div className='app__menu-hero_ourMenu'>
               {MenuData.sushi.map((sushi, index) => (
-                <MenuItem key={sushi.title + index} title={sushi.title} price={sushi.price} tags={sushi.tags} />
+                <MenuItems key={sushi.title + index} title={sushi.title} price={sushi.price} tags={sushi.tags} />
               ))}
             </div>
           </div>

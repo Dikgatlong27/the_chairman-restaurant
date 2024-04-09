@@ -2,6 +2,7 @@ import SubHeading from './SubHeading/SubHeading';
 import Newsletter from './Footer/Newsletter';
 import FooterOverlay from './Footer/FooterOverlay';
 import MenuItem from './Menuitem/MenuItem';
+import MenuItems from './Menuitem/MenuItems';
 import Navbar from './Navbar/Navbar';
 import Bookings from './Bookings/Bookings';
 import TablesMap from './Bookings/TablesMap';
@@ -10,12 +11,14 @@ import GetInTouch from './ContactUsPage/GetInTouch';
 import Social from './ContactUsPage/Social';
 import ScrollToTopBtn from './ScrollToTop/ScrollToTopBtn';
 import PhotoSliderHeader from './PhotoSlider/PhotoSliderHeader';
+import GalleryHeader from './GalleryHeader';
 
 export {
   SubHeading,
   Newsletter,
   FooterOverlay,
   MenuItem,
+  MenuItems,
   Navbar,
   Bookings,
   TablesMap,
@@ -23,5 +26,6 @@ export {
   GetInTouch,
   Social,
   ScrollToTopBtn,
-  PhotoSliderHeader
+  PhotoSliderHeader,
+  GalleryHeader
 };
