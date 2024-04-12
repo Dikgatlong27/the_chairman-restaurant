@@ -1,3 +1,16 @@
-.about__h-one {
-    padding: 2rem;
+
+
+.app__about {
+    padding: 50px 20px;
+    text-align: center;
+}
+  
+.app__about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.app__about-content p {
+    margin-bottom: 2rem;
 }
