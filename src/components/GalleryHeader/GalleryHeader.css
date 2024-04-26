@@ -1,3 +1,11 @@
+.app__gallery-page_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .app__gallery-page_sub {
     font-family: var(--font-base);
     color: var(--color-golden);

@@ -20,6 +20,7 @@ const Navbar = () => {
         <li className='p__opensans'><Link to='/about'>About</Link></li>
         <li className='p__opensans'><Link to='/contact'>Contact</Link></li>
         <li className='p__opensans'><Link to='/menu'>Menu</Link></li>
+        <li className='p__opensans'><Link to='/vacancies'>Vacancies</Link></li>
       </ul>
       <div className='app__navbar-gallery'>
         <Link to='/gallery page' className='p__opensans'>Gallery</Link>
@@ -37,6 +38,7 @@ const Navbar = () => {
               <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/about'>About</Link></li>
               <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/contact'>Contact</Link></li>
               <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/menu'>Menu</Link></li>
+              <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/vacancies'>Vacancies</Link></li>
               <li className='p__opensans' onClick={() => setToggleMenu(false)} style={{ borderTop: '1px dotted gold', paddingTop: '2rem', color: 'goldenrod' }}><Link to='/gallery page'>Gallery</Link></li>
             </ul>
           </div>

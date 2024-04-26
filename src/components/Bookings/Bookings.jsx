@@ -3,6 +3,7 @@ import { useForm } from '@formspree/react';
 import { TablesMap, SubHeading } from '../../components';
 
 import './Bookings.css';
+import PayInfo from './Payments/PayInfo';
 
 const Bookings = () => {
   const [state, handleSubmit] = useForm('mvoerrol');
@@ -13,7 +14,8 @@ const Bookings = () => {
   return (
     <div className='app__bookings section__padding flex__center'>
       <SubHeading title={'Reserve a Table'} />
-      <form onSubmit={handleSubmit} className="app__bookings-reservations app__wrapper section__padding">
+
+      <form onSubmit={handleSubmit} className="app__bookings-reservations section__padding">
 
         <div className='app__bookings-reservations_book .app__wrapper_info app__bg'>
           <div className="form-group">
@@ -50,6 +52,9 @@ const Bookings = () => {
         <div className='app__bookings-reservations_tablesMap app__bg'>
           <div className="form-group">
             <TablesMap />
+            
+            <PayInfo />
+
             <button className="btn" type='submit' disabled={state.submitting}>Reserve</button>
           </div>
         </div>

@@ -11,7 +11,10 @@ import GetInTouch from './ContactUsPage/GetInTouch';
 import Social from './ContactUsPage/Social';
 import ScrollToTopBtn from './ScrollToTop/ScrollToTopBtn';
 import PhotoSliderHeader from './PhotoSlider/PhotoSliderHeader';
-import GalleryHeader from './GalleryHeader';
+import GalleryHeader from './GalleryHeader/GalleryHeader';
+import Vacancies from './Vacancies/Vacancies';
+import VacanciesPosts from './Vacancies/VacanciesPosts'
+import VacantPosts from './Vacancies/VacantPosts';
 
 export {
   SubHeading,
@@ -27,5 +30,8 @@ export {
   Social,
   ScrollToTopBtn,
   PhotoSliderHeader,
-  GalleryHeader
+  GalleryHeader,
+  Vacancies,
+  VacanciesPosts,
+  VacantPosts
 };
