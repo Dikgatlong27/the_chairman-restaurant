@@ -1,0 +1,27 @@
+.sliding-text-container h2  {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  letter-spacing: 0.04em;
+  line-height: 29.9px;
+  font-size: 20px;
+}
+
+.sliding-text-container {
+  overflow: hidden;
+  padding: 0.5rem 2rem;
+}
+
+.sliding-text {
+  white-space: nowrap;
+  animation: slide 17s linear infinite;
+  margin-top: 0.3rem;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

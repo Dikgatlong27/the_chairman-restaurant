@@ -1,3 +1,7 @@
+#vacancies {
+    text-align: center;
+}
+
 .app__vacanciesPosts-sub {
     font-family: var(--font-base);
     color: var(--color-golden);
@@ -9,7 +13,12 @@
     font-size: 30px;
 }
 
-.slider {
+.app__vacancieaPosts-posts {
     display: flex;
-    overflow-x: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
 }
+

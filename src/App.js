@@ -4,7 +4,7 @@ import { Home, About, Contact, Menu, Vacancies, GalleryPage, Reservation } from 
 
 
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, SpecialMenu } from './container';
-import { Navbar, VacanciesPosts } from './components';
+import { Navbar, VacanciesPostsAtHome } from './components';
 import './App.css';
 
 const App = () => (
@@ -30,7 +30,7 @@ const App = () => (
           <Route path='/' exact render={(props) => (
               <>
                 <Navbar />
-                <VacanciesPosts />
+                <VacanciesPostsAtHome />
                 <Header />
                 <AboutUs />
                 <SpecialMenu />

@@ -17,7 +17,7 @@ const Bookings = () => {
 
       <form onSubmit={handleSubmit} className="app__bookings-reservations section__padding">
 
-        <div className='app__bookings-reservations_book .app__wrapper_info app__bg'>
+        <div className='app__bookings-reservations_book app__bg'>
           <div className="form-group">
             <label htmlFor="name" className="form-label p__opensans">Name</label>
             <input id="name" type="text" name="name" placeholder="Your Name here..." className="custom__input" required />

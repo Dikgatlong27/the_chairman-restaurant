@@ -26,11 +26,15 @@
 }
 
 .app__bookings-reservations_tablesMap {
-    min-width: 400px;
+    width: 400px;
     margin-left: 2rem;
     padding: 1rem;
     border-radius: 5px;
-    height: 90vh;
+    height: auto;
+}
+
+.app__bookings-reservations_tablesMap .form-group {
+    width: 100%;
 }
 
 @media screen and (max-width: 1150px) {

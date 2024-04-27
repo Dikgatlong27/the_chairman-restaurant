@@ -1,16 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; 
 
 import './VacantPosts.css'
 
 
-const VacantPosts = () => {
+const VacantPosts = ( {title, description, tags} ) => {
   return (
     <div>
-        <div className="slide">
-            <h3 className='p__cursive'>Sues Chef</h3>
-            <p className='p__opensans'>Produces high quality plates, including both design and taste. Oversees and supervises kitchen staff. Assists with menu planning, inventory, and management of supplies. Ensures that food is top quality and that kitchen is in good condition.</p>
-            
+        <div className="app__vacantPosts">
+            <h3 className='p__cursive' style={{marginBottom:'1rem'}}>{title}</h3>
+            <p className='p__opensans' style={{color:'#aaa'}}>{description}</p>
         </div>
     </div>
   )

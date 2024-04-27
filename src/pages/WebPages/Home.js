@@ -1,12 +1,12 @@
 import React from 'react';
-import { Navbar, VacanciesPosts } from '../../components'; 
+import { Navbar, VacanciesPostsAtHome } from '../../components'; 
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, SpecialMenu } from '../../container';
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <VacanciesPosts />
+      <VacanciesPostsAtHome />
       <Header />
       <AboutUs />
       <SpecialMenu />

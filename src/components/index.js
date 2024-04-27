@@ -13,7 +13,7 @@ import ScrollToTopBtn from './ScrollToTop/ScrollToTopBtn';
 import PhotoSliderHeader from './PhotoSlider/PhotoSliderHeader';
 import GalleryHeader from './GalleryHeader/GalleryHeader';
 import Vacancies from './Vacancies/Vacancies';
-import VacanciesPosts from './Vacancies/VacanciesPosts'
+import VacanciesPostsAtHome from './Vacancies/VacanciesPostsAtHome'
 import VacantPosts from './Vacancies/VacantPosts';
 
 export {
@@ -32,6 +32,6 @@ export {
   PhotoSliderHeader,
   GalleryHeader,
   Vacancies,
-  VacanciesPosts,
+  VacanciesPostsAtHome,
   VacantPosts
 };

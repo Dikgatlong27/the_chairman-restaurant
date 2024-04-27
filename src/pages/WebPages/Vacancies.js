@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, FooterOverlay, SubHeading, VacantPosts} from '../../components'; 
+import { vacanciesData } from '../../constants';
 
 import './Vacancies.css'
 
@@ -8,17 +9,18 @@ const Vacancies = () => {
   return (
     <>
       <Navbar /> 
-      <div className="section__padding">
+      <div className="section__padding" id='vacancies'>
         <SubHeading title='Vacancy Posts' />
           
-        <div className="sliding-section">
+        <div className="app__vacancieaPosts">
           <h2 className='app__vacanciesPosts-sub'>Featured Job Openings</h2>
 
-          <div className="slider">
+          <div className="app__vacancieaPosts-posts">
       
-            <VacantPosts />
-            
-            <VacantPosts />
+            {vacanciesData.map((vacanciesData, index) => (
+              <VacantPosts key={vacanciesData.title + index} title={vacanciesData.title} description={vacanciesData.description} />
+            ))}
+
           </div>
         </div>
       </div>
