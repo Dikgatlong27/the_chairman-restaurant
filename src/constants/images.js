@@ -73,7 +73,14 @@ import meal27 from '../assets/slider-img/OurGallery/meal/meal (27).jpg';
 import meal28 from '../assets/slider-img/OurGallery/meal/meal (28).jpg';
 
 
+// Events
 
+import events1 from '../assets/events/events 1.jpg';
+import events2 from '../assets/events/events 2.jpg';
+import events3 from '../assets/events/events 3.jpg';
+import events4 from '../assets/events/events 4.jpg';
+import events5 from '../assets/events/events 5.jpg';
+import events6 from '../assets/events/events 6.jpg';
 
 
 
@@ -161,6 +168,13 @@ export default {
   meal27,
   meal28,
 
+  // Events
 
+  events1,
+  events2,
+  events3,
+  events4,
+  events5,
+  events6,
   
 };

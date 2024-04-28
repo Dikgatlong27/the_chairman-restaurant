@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; 
 
-import { images } from '../../constants'
 import './Header.css';
-import { SubHeading } from '../../components';
+import { SubHeading, SlidesAtHero } from '../../components';
+
+import slides from '../../constants/CarouselDataAtHero'
 
 const Header = () => (
   <div className="app__header section__padding" id='home'>
@@ -14,8 +15,9 @@ const Header = () => (
       <button type='button' className='custom__button'><Link to='./reservation'>Make a Reservation</Link></button>
     </div>
 
-    <div className="app__wrapper_img" id='img'>
-      <img src={images.welcome} alt="header" />
+    <div className="app__wrapper_img">
+      <SubHeading title='Upcoming Events' className='app__wrapper_img-header' />
+      <SlidesAtHero data={slides} />
     </div>
   </div>
  

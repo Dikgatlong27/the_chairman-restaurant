@@ -15,6 +15,7 @@ import GalleryHeader from './GalleryHeader/GalleryHeader';
 import Vacancies from './Vacancies/Vacancies';
 import VacanciesPostsAtHome from './Vacancies/VacanciesPostsAtHome'
 import VacantPosts from './Vacancies/VacantPosts';
+import SlidesAtHero from './SlidesAtHero/SlidesAtHero';
 
 export {
   SubHeading,
@@ -33,5 +34,6 @@ export {
   GalleryHeader,
   Vacancies,
   VacanciesPostsAtHome,
-  VacantPosts
+  VacantPosts,
+  SlidesAtHero
 };

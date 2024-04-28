@@ -13,7 +13,7 @@
 
 .sliding-text {
   white-space: nowrap;
-  animation: slide 17s linear infinite;
+  animation: slide 23s linear infinite;
   margin-top: 0.3rem;
 }
 
@@ -23,5 +23,21 @@
   }
   100% {
     transform: translateX(-100%);
+  }
+}
+
+.vacancies-btn_mobile {
+  display: none;
+}
+
+@media screen and (max-width:650px) {
+  .vacancies-btn_mobile {
+    display: flex;
+    color:rgb(111, 180, 183);
+    font-style: var(--font-base);
+  }
+
+  .sliding-text {
+    animation: slide 15s linear infinite;
   }
 }
