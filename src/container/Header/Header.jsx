@@ -16,7 +16,7 @@ const Header = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <SubHeading title='Upcoming Events' className='app__wrapper_img-header' />
+      <h3 className='app__wrapper_img-header'>Upcoming Events</h3>
       <SlidesAtHero data={slides} />
     </div>
   </div>

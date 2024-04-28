@@ -9,7 +9,7 @@ import TablesMap from './Bookings/TablesMap';
 import ContactForm from './ContactUsPage/ContactForm';
 import GetInTouch from './ContactUsPage/GetInTouch';
 import Social from './ContactUsPage/Social';
-import ScrollToTopBtn from './ScrollToTop/ScrollToTopBtn';
+import ScrollToTopEffect from './ScrollToTopEffect/ScrollToTopEffect';
 import PhotoSliderHeader from './PhotoSlider/PhotoSliderHeader';
 import GalleryHeader from './GalleryHeader/GalleryHeader';
 import Vacancies from './Vacancies/Vacancies';
@@ -29,7 +29,7 @@ export {
   ContactForm,
   GetInTouch,
   Social,
-  ScrollToTopBtn,
+  ScrollToTopEffect,
   PhotoSliderHeader,
   GalleryHeader,
   Vacancies,

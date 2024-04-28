@@ -18,7 +18,11 @@ const Vacancies = () => {
           <div className="app__vacancieaPosts-posts">
       
             {vacanciesData.map((vacanciesData, index) => (
-              <VacantPosts key={vacanciesData.title + index} title={vacanciesData.title} description={vacanciesData.description} />
+              <VacantPosts 
+                key={vacanciesData.title + index} 
+                title={vacanciesData.title} 
+                description={vacanciesData.description}
+                url={vacanciesData.link} />
             ))}
 
           </div>

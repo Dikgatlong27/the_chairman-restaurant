@@ -5,14 +5,13 @@
     align-items: center;
     width: 500px;
     padding: 0 1rem;
-    transition: all 5s ease-in;
+    transition: all 2s ease-in;
 }
 
 .slide {
     border-radius: 5px;
     box-shadow: 0 0 7px #777;
     width: 100%;
-    transition: all 5s ease-in;
 }
 
 .slide-hidden {
@@ -62,6 +61,19 @@
 
 @media screen and (max-width:650px) {
     .carousel {
-        width: 400px;
+        width: 100%;
     }
+
+    .carousel img {
+        width: 300px;
+    }
+
+    .arrow-left {
+        left: 1.5rem;
+    }
+    
+    .arrow-right {
+        right: 1.5rem;
+    }
+
 }
