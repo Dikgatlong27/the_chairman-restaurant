@@ -7,7 +7,7 @@ import './Menu.css';
 
 const Menu = () => {
 
-  const pdfURL = 'https://drive.google.com/file/d/1ivmn1FIGL_Qr1QGWO4dc073TZO0qT2lM/view?usp=sharing'
+  const pdfURL = 'https://s3.eu-west-1.amazonaws.com/www.chairmanforte.co.za/media_uploads/MENU.pdf'
 
   return (
     <>
