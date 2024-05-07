@@ -6,10 +6,6 @@ const slides = [
             alt: 'Image 1'
         },
         {
-            src: images.events2,
-            alt: 'Image 2'
-        },
-        {
             src: images.events3,
             alt: 'Image 3'
         },
@@ -18,8 +14,8 @@ const slides = [
             alt: 'Image 4'
         },
         {
-            src: images.events5,
-            alt: 'Image 5'
+            src: images.events6,
+            alt: 'Image 6'
         },
 
     ]

@@ -35,7 +35,7 @@ const Menu = () => {
 
             <div className='app__menu-hero_ourMenu'>
               {MenuData.sushi.map((sushi, index) => (
-                <MenuItems key={sushi.title + index} title={sushi.title} price={sushi.price} tags={sushi.tags} />
+                <MenuItems key={sushi.title + index} image={sushi.image} title={sushi.title} price={sushi.price} tags={sushi.tags} />
               ))}
             </div>
           </div>

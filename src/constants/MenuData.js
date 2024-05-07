@@ -31,33 +31,26 @@ const kitchen = [
         tags: '500g fillet | Served with side of your choice',
         image: images.filletOnTheBone,
     },
-]
+];
 
 const sushi = [
     {
-        title: 'Alaska Roll 8pcs',
-        price: 'R219',
-        tags: 'Salmon | Avocado | Topped with salmon, mayo & salmon roe / flying fish roe',
+        title: 'Sashimi Fusion 9pcs',
+        price: 'R159',
+        tags: 'Mixed slices of fresh fish',
+        image: images.sashimi9ps,
     },
     {
-        title: 'Teriyaki Maki 6pcs',
-        price: 'R56',
-        tags: 'Grilled chicken roll | served with teriyaki sauce',
+        title: 'Sushi and Sashimi Fusion',
+        price: 'R189',
+        tags: 'Salmon California roll 4 pcs | Avo Maki 3 pcs | Nigiri 4 pcs | Sashimi 4 pcs',
+        image: images.sushiSashimi,
     },
     {
-        title: 'Deep Fried Prawn California Roll 8pcs',
-        price: 'R126',
-        tags: 'Parwn & avocado roll | served with teriyaki sauce',
-    },
-    {
-        title: 'Kyoto Platter',
-        price: 'R233',
-        tags: 'Deep fried prawn california 8pcs | Tuna maki 6pcs | Salmon nigiri 2pcs',
-    },
-    {
-        title: 'Sushi Platter',
-        price: 'R456',
-        tags: 'Salmon california 8ps | Prawn fashion sandwich 6pcs | Tuna maki 6pcs | Avo maki 6pcs | Nigiri 4pcs ',
+        title: 'Spicy Tuna Hand Roll',
+        price: 'R89',
+        tags: 'Tuna | Onion  | Inhouse traditional Japanese Sauce',
+        image: images.spicyTunaTemaki,
     },
 ]
 

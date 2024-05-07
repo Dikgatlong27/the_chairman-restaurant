@@ -25,6 +25,9 @@ import lambShank from '../assets/lambShank.jpg';
 import lambRib from '../assets/lambRib.jpg';
 import oxTail from '../assets/oxTail.jpg';
 import filletOnTheBone from '../assets/filletOnTheBone.jpg';
+import sashimi9ps from '../assets/slider-img/OurGallery/sushi/sashimi 9pcs.jpg';
+import sushiSashimi from '../assets/slider-img/OurGallery/sushi/sushiSashimiFushion.jpg';
+import spicyTunaTemaki from '../assets/slider-img/OurGallery/sushi/spicyTunaHandRoll.jpg';
 
 // Gallery Page - bevs
 
@@ -76,10 +79,8 @@ import meal28 from '../assets/slider-img/OurGallery/meal/meal (28).jpg';
 // Events
 
 import events1 from '../assets/events/events 1.jpg';
-import events2 from '../assets/events/events 2.jpg';
 import events3 from '../assets/events/events 3.jpg';
 import events4 from '../assets/events/events 4.jpg';
-import events5 from '../assets/events/events 5.jpg';
 import events6 from '../assets/events/events 6.jpg';
 
 
@@ -121,6 +122,9 @@ export default {
   lambRib,
   oxTail,
   filletOnTheBone,
+  sashimi9ps,
+  sushiSashimi,
+  spicyTunaTemaki,
 
   // Gallery Page - bevs
   
@@ -171,10 +175,8 @@ export default {
   // Events
 
   events1,
-  events2,
   events3,
   events4,
-  events5,
   events6,
   
 };
