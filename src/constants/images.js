@@ -28,6 +28,8 @@ import filletOnTheBone from '../assets/filletOnTheBone.jpg';
 import sashimi9ps from '../assets/slider-img/OurGallery/sushi/sashimi 9pcs.jpg';
 import sushiSashimi from '../assets/slider-img/OurGallery/sushi/sushiSashimiFushion.jpg';
 import spicyTunaTemaki from '../assets/slider-img/OurGallery/sushi/spicyTunaHandRoll.jpg';
+import chickenWings from '../assets/chicken-wings.jpg';
+import sushiPlatter from '../assets/sushi-platter.jpg';
 
 // Gallery Page - bevs
 
@@ -125,6 +127,8 @@ export default {
   sashimi9ps,
   sushiSashimi,
   spicyTunaTemaki,
+  chickenWings,
+  sushiPlatter,
 
   // Gallery Page - bevs
   

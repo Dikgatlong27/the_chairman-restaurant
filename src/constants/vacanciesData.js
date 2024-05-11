@@ -40,6 +40,13 @@ const vacanciesData = [
   tags: ['Kitchen', 'Cooking', 'Fine Dining'],
   link: 'https://s3.eu-west-1.amazonaws.com/www.chairmanforte.co.za/media_uploads/Vacancy+Announcement+Bar+Man.docx.pdf '
 },
+
+{ 
+  title: 'Sushi Chef', 
+  description: 'Master of Japanese culinary artistry. Crafts meticulously prepared sushi dishes with precision knife skills, fresh ingredients, and creative flair',
+  tags: ['Fish', 'Japanese Culinary Traditions', 'Culinary Artistry'],
+  link: ''
+},
 ];
 
 // eslint-disable-next-line

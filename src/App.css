@@ -26,6 +26,10 @@
   align-items: center;
 }
 
+.app__margin {
+  margin: 2rem auto;
+}
+
 .app__wrapper_info {
   flex: 1;
   width: 100%;

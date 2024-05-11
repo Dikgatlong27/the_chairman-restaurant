@@ -31,6 +31,12 @@ const kitchen = [
         tags: '500g fillet | Served with side of your choice',
         image: images.filletOnTheBone,
     },
+    {
+        title: 'Chicken Wings',
+        price: 'R120',
+        tags: 'Mozambican Peri Peri | or Dry Rubbed',
+        image: images.chickenWings,
+    },
 ];
 
 const sushi = [
@@ -51,6 +57,12 @@ const sushi = [
         price: 'R89',
         tags: 'Tuna | Onion  | Inhouse traditional Japanese Sauce',
         image: images.spicyTunaTemaki,
+    },
+    {
+        title: 'Sushi Platter',
+        price: 'R456',
+        tags: 'Tuna Maki | Salmon California | Prawn Sandwich | Avo Maki | Nigiri 4pcs',
+        image: images.sushiPlatter,
     },
 ]
 

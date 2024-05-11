@@ -17,6 +17,7 @@ import VacanciesPostsAtHome from './Vacancies/VacanciesPostsAtHome'
 import VacantPosts from './Vacancies/VacantPosts';
 import SlidesAtHero from './SlidesAtHero/SlidesAtHero';
 
+
 export {
   SubHeading,
   Newsletter,
@@ -35,5 +36,5 @@ export {
   Vacancies,
   VacanciesPostsAtHome,
   VacantPosts,
-  SlidesAtHero
+  SlidesAtHero,
 };

@@ -4,7 +4,8 @@ import Contact from './WebPages/Contact';
 import Menu from './WebPages/Menu';
 import GalleryPage from './WebPages/GalleryPage';
 import Reservation from './WebPages/Reservation';
-import Vacancies from './WebPages/Vacancies'
+import Vacancies from './WebPages/Vacancies';
+import Locations from './WebPages/Locations';
 
 export {
     Home,
@@ -14,4 +15,5 @@ export {
     GalleryPage,
     Reservation,
     Vacancies,
+    Locations,
 };

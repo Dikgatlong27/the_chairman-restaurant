@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom'; 
-import { Home, About, Contact, Menu, Vacancies, GalleryPage, Reservation } from './pages';
+import { Home, About, Contact, Menu, Vacancies, GalleryPage, Reservation, Locations } from './pages';
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, SpecialMenu } from './container';
 import { Navbar, VacanciesPostsAtHome } from './components';
 import './App.css';
@@ -23,18 +23,20 @@ const App = () => (
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact/>} />
-        <Route path='/menu' element={<Menu/>} />
-        <Route path='/vacancies' element={<Vacancies/>} />
-        <Route path='/gallery page' element={<GalleryPage/>} />
-        <Route path='/reservation' element={<Reservation/>} />
+        <Route path='/menu' element={<Menu />} />
+        <Route path='/vacancies' element={<Vacancies />} />
+        <Route path='/gallery page' element={<GalleryPage />} />
+        <Route path='/reservation' element={<Reservation />} />
+        <Route path='/locations' element={<Locations />} />
+        
 
-        {/* SpecialMenu view-more */}
+        {/* SpecialMenu view-more @ Home */}
         <Route path='/menu' exact render={(props) => (<SpecialMenu />)} />
 
-        {/* Gallery explore */}
+        {/* Gallery explore @ Home */}
         <Route path='/gallery page' exact render={(props) => (<Gallery />)} />
 
-        {/* Buttons */}
+        {/* Home */}
         <Route path='/' exact render={(props) => (
           <>
             <Navbar />
