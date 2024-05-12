@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.42b4409c.css",
-    "main.js": "/static/js/main.eb521aec.js",
+    "main.js": "/static/js/main.0942ea04.js",
     "static/media/mainbg.png": "/static/media/mainbg.0d176bc03c614d034b49.png",
     "static/media/meal.mp4": "/static/media/meal.11a6c57e539b0799b00e.mp4",
     "static/media/nightbg.png": "/static/media/nightbg.a3f8bdd61a480d74b470.png",
@@ -36,7 +36,6 @@
     "static/media/meal (22).jpg": "/static/media/meal (22).664de669e0d3725cf5ff.jpg",
     "static/media/meal (14).jpg": "/static/media/meal (14).b8093a0c812a0ea7a248.jpg",
     "static/media/meal (19).jpg": "/static/media/meal (19).1caf22acf1a09292b149.jpg",
-    "static/media/events 1.jpg": "/static/media/events 1.deb1904782ff7e03d18e.jpg",
     "static/media/overlaybg.png": "/static/media/overlaybg.165362eea72d1614ae28.png",
     "static/media/chicken-wings.jpg": "/static/media/chicken-wings.8e02ecf4193c717703d0.jpg",
     "static/media/meal (8).jpg": "/static/media/meal (8).4e2b2874e9d513b160a3.jpg",
@@ -73,10 +72,10 @@
     "static/media/chairman.png": "/static/media/chairman.0a4c3e6e9973bd3aae62.png",
     "index.html": "/index.html",
     "main.42b4409c.css.map": "/static/css/main.42b4409c.css.map",
-    "main.eb521aec.js.map": "/static/js/main.eb521aec.js.map"
+    "main.0942ea04.js.map": "/static/js/main.0942ea04.js.map"
   },
   "entrypoints": [
     "static/css/main.42b4409c.css",
-    "static/js/main.eb521aec.js"
+    "static/js/main.0942ea04.js"
   ]
 }

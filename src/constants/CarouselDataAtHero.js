@@ -1,10 +1,7 @@
 import { images } from '../constants'
 
 const slides = [
-        {
-            src: images.events1,
-            alt: 'Image 1'
-        },
+        
         {
             src: images.events3,
             alt: 'Image 3'

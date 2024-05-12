@@ -45,7 +45,7 @@ const vacanciesData = [
   title: 'Sushi Chef', 
   description: 'Master of Japanese culinary artistry. Crafts meticulously prepared sushi dishes with precision knife skills, fresh ingredients, and creative flair',
   tags: ['Fish', 'Japanese Culinary Traditions', 'Culinary Artistry'],
-  link: ''
+  link: 'https://s3.eu-west-1.amazonaws.com/www.chairmanforte.co.za/media_uploads/Sushi+-+Vacancy+Announcement+Sushi+Chefs.pdf'
 },
 ];
 

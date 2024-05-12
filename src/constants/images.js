@@ -80,7 +80,6 @@ import meal28 from '../assets/slider-img/OurGallery/meal/meal (28).jpg';
 
 // Events
 
-import events1 from '../assets/events/events 1.jpg';
 import events3 from '../assets/events/events 3.jpg';
 import events4 from '../assets/events/events 4.jpg';
 import events6 from '../assets/events/events 6.jpg';
@@ -178,7 +177,6 @@ export default {
 
   // Events
 
-  events1,
   events3,
   events4,
   events6,
