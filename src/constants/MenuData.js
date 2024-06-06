@@ -64,6 +64,18 @@ const sushi = [
         tags: 'Tuna Maki | Salmon California | Prawn Sandwich | Avo Maki | Nigiri 4pcs',
         image: images.sushiPlatter,
     },
+    {
+        title: 'Salmon California Roll 8pcs',
+        price: 'R129',
+        tags: 'Fresh Salmon | Avo | Topped with Cavior',
+        image: images.salmonCali,
+    },
+    {
+        title: 'Deepfried California Roll',
+        price: 'R126',
+        tags: 'Prawn California Roll | Special Sauce | Red/Spring Onion | Served with In-House Teri Yaki sauce ',
+        image: images.deepFriedCali,
+    },
 ]
 
 // eslint-disable-next-line

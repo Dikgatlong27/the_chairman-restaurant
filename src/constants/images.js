@@ -30,6 +30,8 @@ import sushiSashimi from '../assets/slider-img/OurGallery/sushi/sushiSashimiFush
 import spicyTunaTemaki from '../assets/slider-img/OurGallery/sushi/spicyTunaHandRoll.jpg';
 import chickenWings from '../assets/chicken-wings.jpg';
 import sushiPlatter from '../assets/sushi-platter.jpg';
+import salmonCali from '../assets/slider-img/OurGallery/sushi/salmonCaliforniaRoll.jpg';
+import deepFriedCali from '../assets/slider-img/OurGallery/sushi/deepFriedCalie.jpg';
 
 // Gallery Page - bevs
 
@@ -80,7 +82,10 @@ import meal28 from '../assets/slider-img/OurGallery/meal/meal (28).jpg';
 
 // Events
 
+import events1 from '../assets/events/events 1.jpg';
+import events2 from '../assets/events/events 2.jpg';
 import events3 from '../assets/events/events 3.jpg';
+import events5 from '../assets/events/events 5.jpg';
 import events4 from '../assets/events/events 4.jpg';
 import events6 from '../assets/events/events 6.jpg';
 
@@ -128,6 +133,8 @@ export default {
   spicyTunaTemaki,
   chickenWings,
   sushiPlatter,
+  salmonCali,
+  deepFriedCali,
 
   // Gallery Page - bevs
   
@@ -177,8 +184,11 @@ export default {
 
   // Events
 
+  events1,
+  events2,
   events3,
   events4,
+  events5,
   events6,
   
 };

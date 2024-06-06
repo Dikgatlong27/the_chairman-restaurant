@@ -15,7 +15,7 @@ const Header = () => (
       <button type='button' className='custom__button'><Link to='./reservation'>Make a Reservation</Link></button>
     </div>
     <div className="app__wrapper_img">
-      <h3 className='app__wrapper_img-header'>Upcoming Events</h3>
+      <h3 className='app__wrapper_img-header'>Welcome to Our Restaurant</h3>
       <SlidesAtHero data={slides} />
     </div>
   </div>
