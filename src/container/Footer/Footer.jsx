@@ -5,9 +5,7 @@ import './Footer.css';
 
 const Footer = () => (
   <div className='app__footer '>
-
     <Newsletter />
-
     <FooterOverlay />
   </div>
 );

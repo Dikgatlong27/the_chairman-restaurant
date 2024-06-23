@@ -1,3 +1,4 @@
+import LandingPage from './WebPages/LandingPage';
 import Home from './WebPages/Home';
 import About from './WebPages/About';
 import Contact from './WebPages/Contact';
@@ -8,6 +9,7 @@ import Vacancies from './WebPages/Vacancies';
 import Locations from './WebPages/Locations';
 
 export {
+    LandingPage,
     Home,
     About,
     Contact,

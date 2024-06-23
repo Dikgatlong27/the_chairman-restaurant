@@ -1,8 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom'; 
-import { Home, About, Contact, Menu, Vacancies, GalleryPage, Reservation, Locations } from './pages';
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, SpecialMenu } from './container';
-import { Navbar, VacanciesPostsAtHome } from './components';
+import { LandingPage, Home, About, Contact, Menu, Vacancies, GalleryPage, Reservation, Locations } from './pages';
 import './App.css';
 
 const ScrollToTop = () => {
@@ -20,37 +18,15 @@ const App = () => (
     <ScrollToTop />
     <div id='app'>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<LandingPage />} />
+        <Route path='home' element={<Home/>} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact/>} />
         <Route path='/menu' element={<Menu />} />
-        <Route path='/vacancies' element={<Vacancies />} />
+        <Route path='/vacancies' element={<Vacancies />} /> 
         <Route path='/gallery page' element={<GalleryPage />} />
         <Route path='/reservation' element={<Reservation />} />
         <Route path='/locations' element={<Locations />} />
-        
-
-        {/* SpecialMenu view-more @ Home */}
-        <Route path='/menu' exact render={(props) => (<SpecialMenu />)} />
-
-        {/* Gallery explore @ Home */}
-        <Route path='/gallery page' exact render={(props) => (<Gallery />)} />
-
-        {/* Home */}
-        <Route path='/' exact render={(props) => (
-          <>
-            <Navbar />
-            <VacanciesPostsAtHome />
-            <Header />
-            <AboutUs />
-            <SpecialMenu />
-            <Chef />
-            <Intro />
-            <Gallery />
-            <FindUs />
-            <Footer />
-          </>
-        )} />
       </Routes>
     </div>
   </Router>

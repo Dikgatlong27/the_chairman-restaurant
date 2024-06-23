@@ -25,7 +25,7 @@ const Navbar = () => {
       </ul>
       <div className='app__navbar-gallery'>
         <Link to='/gallery page' className='p__opensans'>Gallery</Link>
-      <div />
+        <div />
         <Link to='/locations' className='p__opensans'>Locations < FaLocationDot /></Link>
       </div>
       <div className="app__navbar-smallscreen">
