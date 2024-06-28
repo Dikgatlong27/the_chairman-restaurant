@@ -19,7 +19,7 @@ const LandingPage = () => {
                 {dropdownVisible && (
                     <div className='dropdown-content flex__center'>
                         <Link to='/home' id='branches' className='p__opensans'>Hatfield Branch</Link>
-                        <Link id='branches' className='p__opensans dropdown-content-ezulwiniBtn'>Ezulwini Branch</Link>
+                        <a href='https://chairman-forte-ezulwini.netlify.app/' id='branches' className='p__opensans dropdown-content-ezulwiniBtn'>Ezulwini Branch</a>
                     </div>
                 )}
                 
