@@ -36,6 +36,22 @@
     color: var(--color-grey);
 }
 
+#nav-btn {
+    margin-left: 2rem;
+    background-color: #00000041;
+    color: var(--color-crimson);
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 18px;
+    padding: 0.1rem 1rem;
+    border-radius: 1px;
+    border: 1px solid var(--color-crimson);
+    outline: none;
+    cursor: pointer;
+}
+
 .app__navbar-gallery {
     display: flex;
     justify-content: flex-end;
