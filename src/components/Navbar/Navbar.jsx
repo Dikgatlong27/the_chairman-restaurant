@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
-import { FaLocationDot } from "react-icons/fa6";
 
 import images from '../../constants/images';
 import './Navbar.css';
@@ -22,12 +21,11 @@ const Navbar = () => {
         <li className='p__opensans'><Link to='/contact'>Contact</Link></li>
         <li className='p__opensans'><Link to='/menu'>Menu</Link></li>
         <li className='p__opensans'><Link to='/vacancies'>Vacancies</Link></li>
-        <li id='nav-btn'><Link to='/' id='branches'>See Branches</Link></li>
       </ul>
       <div className='app__navbar-gallery'>
         <Link to='/gallery page' className='p__opensans'>Gallery</Link>
         <div />
-        <Link to='/locations' className='p__opensans'>Locations<FaLocationDot /></Link>
+        <Link to='/reservation' className='p__opensans'>Bookings</Link>
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color='#fff' fontSize={27} onClick={() => setToggleMenu(true)} />
@@ -41,9 +39,8 @@ const Navbar = () => {
               <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/contact'>Contact</Link></li>
               <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/menu'>Menu</Link></li>
               <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/vacancies'>Vacancies</Link></li>
-              <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/locations'>Locations < FaLocationDot /></Link></li>
+              <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/reservation'>Bookings</Link></li>
               <li className='p__opensans' onClick={() => setToggleMenu(false)} style={{ borderTop: '1px dotted gold', paddingTop: '2rem', color: 'goldenrod' }}><Link to='/gallery page'>Gallery</Link></li>
-              <li id='nav-btn' onClick={() => setToggleMenu(false)}><Link to='/' id='branches'>See Branches</Link></li>
             </ul>
           </div>
         )}
