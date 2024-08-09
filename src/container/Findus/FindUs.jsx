@@ -10,12 +10,12 @@ const FindUs = () => (
       <SubHeading title="Contact" />
       <h1 className='headtext__cursive' style={{marginBottom: '2rem'}}>Find Us</h1>
       <div className="app__wrapper-content">
-        <p className="p__opensans">129 Duxbury Rd, Hatfield, Pretoria, 0083</p>
+        <p className="p__opensans">MR103, Gables Shop 01, Lobamba H107, Ezulwini, Eswatini</p>
         <p className="p__cursive" style={{color: '#dcca87', margin: '2rem 0'}}>Opening Hours</p>
-        <p className="p__opensans">Thurs - Sat: 12h00 - 00h00</p>
-        <p className="p__opensans"> Sun: 12h00 - 21h00</p>
+        <p className="p__opensans">Mon - Sat: 10h00 - 22h00</p>
+        <p className="p__opensans"> Sun: 10h00 - 21h00</p>
       </div>
-      <button className='custom__button' style={{marginTop: '2rem'}}><Link to='https://www.google.com/maps/place/129+Duxbury+Rd,+Hillcrest,+Pretoria,+0083/@-25.7557492,28.2359937,17z/data=!3m1!4b1!4m9!1m2!10m1!1e2!3m5!1s0x1e9561badb82f77f:0xde4d4da82eb3d5a3!8m2!3d-25.7557541!4d28.2385686!16s%2Fg%2F11bw50k2mk?entry=ttu' target='_blank'>Visit Us</Link></button>
+      <button className='custom__button' style={{marginTop: '2rem'}}><Link to='https://www.google.com/maps/dir//H55P%2BQVH,+MR103,+Lobamba+H107,+Eswatini/@-26.4406248,31.1869346,18.95z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1eef3565472b2803:0xf4c8c272a657e5ed!2m2!1d31.1871875!2d-26.4405625?entry=ttu' target='_blank'>Visit Us</Link></button>
     </div>
 
     <div className="app__wrapper_img">

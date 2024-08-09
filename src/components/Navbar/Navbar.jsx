@@ -16,16 +16,19 @@ const Navbar = () => {
         <Link to='/'><img src={images.chairman} alt="app logo" /></Link>
       </div>
       <ul className='app__navbar-links'>
-        <li className='p__opensans'><Link to='/home'>Home</Link></li>
+        <li className='p__opensans'><Link to='/'>Home</Link></li>
         <li className='p__opensans'><Link to='/about'>About</Link></li>
         <li className='p__opensans'><Link to='/contact'>Contact</Link></li>
         <li className='p__opensans'><Link to='/menu'>Menu</Link></li>
         <li className='p__opensans'><Link to='/vacancies'>Vacancies</Link></li>
+        <li className='p__opensans'><Link to='/gallery page'>Gallery</Link></li>
+        
       </ul>
       <div className='app__navbar-gallery'>
-        <Link to='/gallery page' className='p__opensans'>Gallery</Link>
+        
+        <Link to='/signup' className='p__opensans'>Sign Up</Link>
         <div />
-        <Link to='/reservation' className='p__opensans'>Bookings</Link>
+        <Link to='/signin' className='p__opensans'>Log In</Link>
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color='#fff' fontSize={27} onClick={() => setToggleMenu(true)} />
@@ -34,13 +37,15 @@ const Navbar = () => {
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <MdOutlineRestaurantMenu fontSize={27} className='overlay__close' onClick={() => setToggleMenu(false)} />
             <ul className='app__navbar-smallscreen_links'>
-              <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/home'>Home</Link></li>
+              <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/'>Home</Link></li>
               <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/about'>About</Link></li>
               <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/contact'>Contact</Link></li>
               <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/menu'>Menu</Link></li>
               <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/vacancies'>Vacancies</Link></li>
-              <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/reservation'>Bookings</Link></li>
-              <li className='p__opensans' onClick={() => setToggleMenu(false)} style={{ borderTop: '1px dotted gold', paddingTop: '2rem', color: 'goldenrod' }}><Link to='/gallery page'>Gallery</Link></li>
+              
+              <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/gallery page'>Gallery</Link></li>
+              <li className='p__opensans' onClick={() => setToggleMenu(false)} style={{ borderTop: '1px dotted gold', paddingTop: '2rem'}}><Link to='/signin'>Log In</Link></li>
+              <li className='p__opensans' onClick={() => setToggleMenu(false)}><Link to='/signup'>Sign Up</Link></li>
             </ul>
           </div>
         )}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom'; 
-import { Home, About, Contact, Menu, Vacancies, GalleryPage, Reservation } from './pages';
+import { Home, About, Contact, Menu, Vacancies, GalleryPage, Signin, Signup, Reservation } from './pages';
 import './App.css';
 
 const ScrollToTop = () => {
@@ -24,6 +24,8 @@ const App = () => (
         <Route path='/menu' element={<Menu />} />
         <Route path='/vacancies' element={<Vacancies />} /> 
         <Route path='/gallery page' element={<GalleryPage />} />
+        <Route path='/signin' element={<Signin/>} />
+        <Route path='/signup' element={<Signup/>} />
         <Route path='/reservation' element={<Reservation />} />
       </Routes>
     </div>

@@ -16,6 +16,8 @@ import Vacancies from './Vacancies/Vacancies';
 import VacanciesPostsAtHome from './Vacancies/VacanciesPostsAtHome'
 import VacantPosts from './Vacancies/VacantPosts';
 import SlidesAtHero from './SlidesAtHero/SlidesAtHero';
+import SignIn from './SignIn/SignIn';
+import SignUp from './SignUp/SignUp';
 
 
 export {
@@ -37,4 +39,6 @@ export {
   VacanciesPostsAtHome,
   VacantPosts,
   SlidesAtHero,
+  SignIn,
+  SignUp,
 };

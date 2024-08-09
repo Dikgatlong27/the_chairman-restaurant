@@ -5,6 +5,8 @@ import Menu from './WebPages/Menu';
 import Vacancies from './WebPages/Vacancies';
 import GalleryPage from './WebPages/GalleryPage';
 import Reservation from './WebPages/Reservation';
+import Signin from './WebPages/Signin';
+import Signup from './WebPages/Signup';
 
 export {
     Home,
@@ -14,4 +16,6 @@ export {
     Vacancies,
     GalleryPage,
     Reservation,
+    Signin,
+    Signup,
 };

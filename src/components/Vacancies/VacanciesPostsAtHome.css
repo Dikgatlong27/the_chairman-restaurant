@@ -27,7 +27,8 @@
 }
 
 .vacancies-btn_mobile {
-  display: none;
+  display: flex;
+  color: var(--color-white);
 }
 
 @media screen and (max-width:650px) {
