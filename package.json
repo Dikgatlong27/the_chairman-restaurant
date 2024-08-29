@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "core-js": "^3.35.1",
     "es6-object-assign": "^1.1.0",
+    "firebase": "^10.13.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
