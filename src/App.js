@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom'; 
+import { Route, Routes, useLocation } from 'react-router-dom'; 
 import { Home, About, Contact, Menu, Vacancies, GalleryPage, Signin, Signup, Reservation } from './pages';
 import './App.css';
 
@@ -14,9 +14,9 @@ const ScrollToTop = () => {
 };
 
 const App = () => (
-  <Router>
-    <ScrollToTop />
-    <div id='app'>
+  
+    
+    <div id='app'><ScrollToTop />
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About />} />
@@ -29,7 +29,7 @@ const App = () => (
         <Route path='/reservation' element={<Reservation />} />
       </Routes>
     </div>
-  </Router>
+  
 );
 
 export default App;
